@@ -1,0 +1,245 @@
+body{
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #222222;
+}
+.clearfix:after{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+div{
+	box-sizing: border-box;
+}
+header{
+	background: url(img/first-bg.jpg) no-repeat center top / cover; 
+	padding-bottom: 160px;
+	/*height: 100vh; --> с помощью этого можно сделать первую секцию на высоту всего экрана*/
+}
+.container {
+	width: 930px;
+	margin: 0 auto;
+}
+.logo{
+	margin-top: 41px;
+	float: left;
+}
+nav{
+	float: right;
+	margin-top: 50px;
+}
+.menu{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+.menu li a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.titles_first{
+	font-size: 40px;
+	color: #fff;
+	text-transform:uppercase;
+	text-align: center;
+	margin-top: 180px;
+}
+h1{
+	font-size: 75px;
+	color: #fff;
+	text-transform:uppercase;
+	text-align: center;
+	margin: 15px 15px;
+}
+.button{
+	background: #fed136;
+	color: #484543;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top:50px;
+}
+.title{
+	padding-top: 115px;
+}
+.title h2{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform:uppercase;
+	margin-top: 5px;
+}
+.title p{
+	color: #777777;
+	text-align: center;
+	font-size: 16px;
+
+}
+.services{
+	margin-top: 80px;
+}
+.services_item{
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+.services_item h3{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.services_item p {
+	color: #777777;
+	font-size: 14px;
+	line-height: 1.55em;
+}
+.services_item:last-child{
+	float: right;
+}
+.services_item:nth-child(2){
+	margin-left: 60px;
+}
+#services{
+	padding-bottom: 120px;
+}
+#portfolio{
+	background-color: #f7f7f7;
+}
+.works{
+	margin-top: 70px;
+}
+.works img{
+	float: left;
+}
+.works img:nth-child(2){
+	margin-left: 29px;
+}
+.works img:last-child{
+	float: right;
+}
+
+
+
+#about{
+	margin: 0;
+	padding: 0;
+}
+#about .container .title{
+	margin-bottom:85px;
+}
+.first_type{
+	clear: both;
+	margin-bottom: 71px;
+	float: left;
+	width: 65%;
+}
+.second_type{
+	clear: both;
+	margin-bottom: 71px;
+	float: right;
+	width: 62%;
+}
+h3{
+	display: block;
+	font-size: 18px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	text-transform:uppercase;
+	color: #222222;
+	float: right;
+	margin-bottom: 0px;
+}
+.type_item:nth-child(2) h3{
+	float: left;
+}
+.type_item:nth-child(4) h3{
+	float: left;
+}
+.type_item{
+	width: 324px;
+	float: left;
+}
+.first_type .type-item{
+	float: left;
+}
+.second_type .type_item{
+	float: right;
+}
+.first_type img{
+	width: 183px;
+	height: 183px;
+	margin: 0 auto;
+	padding: 32px;
+	float: right;
+}
+.second_type img{
+	width: 183px;
+	height: 183px;
+	margin: 0 auto;
+	padding: 32px;
+	float: left;
+}
+.second_type:last-child{
+	margin-bottom: 0;
+}
+.zag{
+	font-size: 18px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #222222;
+	float: right;
+	text-align: right;
+}
+.zag2{
+	font-size: 18px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #222222;
+	float: left;
+	text-align: left;
+}
+.type_item p{
+	display: block;
+	text-align: right;
+}
+.second_type .type_item p{
+	display: block;
+	text-align: left;
+	clear: both;
+}
+.first_type .type_item p{
+	display: block;
+	text-align: right;
+	clear: both;
+}
+footer{
+	height: 235px;
+	clear: both;
+	margin: 0;
+	padding: 0;
+	background: #fff; 
+}
+footer .container p{
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #222222;
+	text-align: center;
+	padding-top: 115px;
+}
